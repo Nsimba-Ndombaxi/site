@@ -1,0 +1,101 @@
+@media screen and (max-width:900px) {
+
+    /*menu */
+    .menu-link a {
+        font-size: 16px;
+    }
+
+    .menu {
+        gap: 20px;
+
+    }
+
+    /* header */
+
+    .inicio {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .inicio img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .dados {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dados p {
+        font-size: 18px;
+        color: var(--claro);
+        margin: 5px;
+    }
+
+    .dados span {
+        margin-left: 16px;
+    }
+
+
+
+    /* sobre mim */
+    .info {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info h2 {
+        font-size: 30px;
+    }
+
+    .mim {
+        width: 100%;
+        height: 400px;
+    }
+
+
+    .mim p {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .mim button {
+        font-size: 18px;
+    }
+
+
+    /* projectos */
+    .sites {
+        width: 95%;
+    }
+
+    .projectos h2 {
+        margin-top:25%;
+        font-size: 30px;
+    }
+
+    .card {
+        margin: 30px;
+        width: 270px;
+        height: 410px;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+
+    /* footer */
+
+    footer h2 {
+        font-size: 30px;
+    }
+
+    .contacto {
+        width: 100%;
+    }
+
+}
